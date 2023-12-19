@@ -4,7 +4,7 @@
     opacity: 0;
   }
   100% {
-    transform: translateY(-50%);
+    transform: translateY(0);
     opacity: 1;
   }
 }
@@ -23,8 +23,7 @@
   justify-content: flex-end;
   align-items: center !important;
   margin-right: 8%;
-  /* position: relative;
-  top: 10%; */
+
 }
 @media (max-width: 768px) {
   .w-card {

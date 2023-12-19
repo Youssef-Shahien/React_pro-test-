@@ -13,19 +13,19 @@ export default function Sidebar() {
       <nav className={`${style.nav} shadow-sm`}>
         <ul className="list-unstyled ">
           <li>
-            <NavLink to="/">
+            <NavLink to="/layout">
               <i className="fas fa-bag-shopping ms-1 me-4"></i>
               Products
             </NavLink>
           </li>
           <li>
-            <NavLink to="/search">
+            <NavLink to="/layout/orders">
               <i className="fas fa-cart-shopping me-4"></i> 
               Orders
             </NavLink>
           </li>
           <li>
-            <NavLink to="/uplaod">
+            <NavLink to="/layout/upload">
               <i className="fas fa-upload me-4"></i> 
               Upload
             </NavLink>

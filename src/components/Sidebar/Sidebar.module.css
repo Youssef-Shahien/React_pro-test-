@@ -1,13 +1,13 @@
 .nav {
-  height: 100%;
-  padding: 20px 12px;
+  height: calc(100vh - 60.2px);
+  /* padding: 20px 12px; */
   background-color: var(--white-900);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-right: 2px solid var(--white-700);
   position: relative;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   background-color: #eceef7;
 }
 
@@ -45,10 +45,13 @@
 
 .nav [class="active"],
 .nav li:hover {
-  background-color: #084661;
+  background-color: #29abe2;
   color: white !important;
+  border-radius: 20px;
 }
-
+.nav li span{
+  cursor: pointer;
+}
 .nav .active i,
 .nav li:hover i,
 .nav li:hover a,
@@ -76,4 +79,5 @@
   right: 0%;
   top: 50%;
   transform: translate(50%, -50%);
+  cursor: pointer;
 }

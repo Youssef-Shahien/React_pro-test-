@@ -51,7 +51,7 @@ export default function Login() {
               
               <p>
                 You don't have account yet ?
-                <Link to="/signup" className="text-decoration-underline">
+                <Link to="/signup" className="text-decoration-underline button btn ms-2">
                   Sign up
                 </Link>
               </p>
